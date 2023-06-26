@@ -1,0 +1,71 @@
+.conteiner {
+    width: 90%;
+    margin: 0 auto;
+}
+
+select {
+    /* background-color: transparent; */
+    border: none;
+    color: white;
+    background-color: rgb(3, 3, 218);
+
+}
+
+.hourly {
+    margin-top: 10px;
+    border: 1px solid rgb(7, 8, 99);
+    background-color: rgb(4, 5, 76);
+    border-radius: 5px;
+    display: flex;
+    overflow: scroll;
+}
+
+.hour {
+    margin-top: 30px;
+}
+
+.hour img {
+    width: 40px;
+}
+
+.hour p {
+    margin-left: 15px;
+}
+
+.current {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /* background-image: url(https:kalix.club/uploads/posts/2022-12/1671766875_kalix-club-p-pogoda-fon-oboi-6.png); */
+    background-color: rgb(3, 3, 218);
+    background-size: cover;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.daily {
+    margin-top: 10px;
+    border: 1px solid rgb(7, 8, 99);
+    background-color: rgb(4, 5, 76);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.day {
+    /* margin-top: 30px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.day img {
+    width: 40px;
+}
